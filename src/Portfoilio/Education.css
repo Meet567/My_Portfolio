@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  border: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+
+.education {
+  background-color: rgb(67, 66, 66);
+  margin-top: 5px;
+  color: #668cff;
+  height: 370px;
+}
+.e1 {
+  background-color: rgb(67, 66, 66);
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 10px;
+}
+sup {
+  background-color: rgb(67, 66, 66);
+}
+.e2 {
+  color: white;
+  background-color: rgb(67, 66, 66);
+  margin-top: 10px;
+  font-size: 20px;
+}
+.e3 {
+  background-color: rgb(67, 66, 66);
+  color: white;
+  font-size: 15px;
+}
+
+.e4 {
+  background-color: rgb(67, 66, 66);
+  color: white;
+}

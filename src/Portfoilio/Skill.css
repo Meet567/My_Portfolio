@@ -1,0 +1,261 @@
+* {
+  margin: 0px;
+  border: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+.skill {
+  background-color: rgb(61, 58, 58);
+  margin-top: 5px;
+  height: 500px;
+}
+.skill1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgb(61, 58, 58);
+}
+.s1 {
+  font-weight: bold;
+  color: #668cff;
+  text-decoration: underline;
+  background-color: rgb(61, 58, 58);
+  padding: 10px;
+}
+.technical {
+  background-color: rgb(61, 58, 58);
+}
+.professional {
+  background-color: rgb(61, 58, 58);
+}
+.s2 {
+  background-color: rgb(61, 58, 58);
+  color: aqua;
+}
+.team {
+  background-color: rgb(61, 58, 58);
+  color: white;
+  margin-top: 55px;
+  flex-wrap: nowrap;
+}
+.html1 {
+  background-color: rgb(61, 58, 58);
+}
+.html2 {
+  background-image: url("G:\React\project2\src\Assests\HTML.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-color: rgb(61, 58, 58);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.html3 {
+  background-color: rgb(61, 58, 58);
+  color: white;
+  text-align: justify;
+}
+.range {
+  background-color: rgb(50, 49, 49);
+  width: 250px;
+  height: 6px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.range2 {
+  background-color: rgb(151, 224, 224);
+  width: 230px;
+  height: 6px;
+  border-radius: 50px;
+  animation: animation1 0.4s ease forwards;
+}
+@keyframes animation1 {
+  0% {
+    transform: translateX(-100px);
+    transform: scaleX(0);
+  }
+  50% {
+    transform: translateX(-50px);
+    transform: scaleX(0);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.css {
+  background-image: url("G:\React\project2\src\Assests\CSS.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-color: rgb(61, 58, 58);
+}
+
+.crange2 {
+  background-color: rgb(151, 224, 224);
+  width: 220px;
+  height: 6px;
+  border-radius: 50px;
+  animation: animation2 0.4s ease forwards;
+}
+@keyframes animation2 {
+  0% {
+    transform: translateX(-100px);
+    transform: scaleX(0);
+  }
+  50% {
+    transform: translateX(-50px);
+    transform: scaleX(0);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.java {
+  background-image: url("G:\React\project2\src\Assests\JavaScript.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-color: rgb(61, 58, 58);
+}
+
+.jrange2 {
+  background-color: rgb(151, 224, 224);
+  width: 200px;
+  height: 6px;
+  border-radius: 50px;
+  animation: animation3 0.4s ease forwards;
+}
+@keyframes animation3 {
+  0% {
+    transform: translateX(-100px);
+    transform: scaleX(0);
+  }
+  50% {
+    transform: translateX(-50px);
+    transform: scaleX(0);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.react {
+  background-image: url("G:\React\project2\src\Assests\React.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-color: rgb(61, 58, 58);
+}
+
+.rrange2 {
+  background-color: rgb(151, 224, 224);
+  width: 180px;
+  height: 6px;
+  border-radius: 50px;
+  animation: animation4 0.4s ease forwards;
+}
+@keyframes animation4 {
+  0% {
+    transform: translateX(-100px);
+    transform: scaleX(0);
+  }
+  50% {
+    transform: translateX(-50px);
+    transform: scaleX(0);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.span1 {
+  background-color: rgb(61, 58, 58);
+  margin-left: 100px;
+}
+
+.span2 {
+  background-color: rgb(61, 58, 58);
+  margin-left: 105px;
+}
+.span3 {
+  background-color: rgb(61, 58, 58);
+  margin-left: 22px;
+}
+.span4 {
+  background-color: rgb(61, 58, 58);
+  margin-left: 50px;
+}
+
+sub {
+  background-color: rgb(61, 58, 58);
+  margin-left: 50px;
+}
+
+/* ***** Profassional Skill ***** */
+
+.tspan1 {
+  background-color: rgb(61, 58, 58);
+  margin-left: 50px;
+}
+
+.creatspan {
+  background-color: rgb(61, 58, 58);
+  margin-left: 28px;
+}
+.commuspan {
+  background-color: rgb(61, 58, 58);
+  margin-left: 0px;
+}
+
+.teamrange2 {
+  background-color: rgb(151, 224, 224);
+  width: 220px;
+  height: 6px;
+  border-radius: 50px;
+  animation: animation2 0.4s ease forwards;
+}
+@keyframes animation2 {
+  0% {
+    transform: translateX(-100px);
+    transform: scaleX(0);
+  }
+  50% {
+    transform: translateX(-50px);
+    transform: scaleX(0);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.creatirange2 {
+  background-color: rgb(151, 224, 224);
+  width: 200px;
+  height: 6px;
+  border-radius: 50px;
+  animation: animation2 0.4s ease forwards;
+}
+@keyframes animation2 {
+  0% {
+    transform: translateX(-100px);
+    transform: scaleX(0);
+  }
+  50% {
+    transform: translateX(-50px);
+    transform: scaleX(0);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .skill {
+    height: 860px;
+  }
+}

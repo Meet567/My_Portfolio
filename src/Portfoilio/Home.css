@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  border: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+.content {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5px;
+  height: 480px;
+}
+.profile {
+  background-color: black;
+  animation: up-down 6s infinite;
+}
+/* @keyframes up-down {
+  0% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-60px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+} */
+.text1 {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  animation: slideright 1s ease forwards;
+}
+
+@keyframes slideright {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.text2 {
+  background-color: black;
+  color: white;
+  animation: slideleft 1s ease forwards;
+  animation-delay: 1s;
+}
+
+@keyframes slideleft {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.text3 {
+  background-color: black;
+  color: white;
+  animation: slideleft 1s ease forwards;
+  animation-delay: 1s;
+}
+.button {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  animation: slideright 1s ease forwards;
+  animation-delay: 2s;
+}
+.b1 {
+  background-color: #2874f0;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  width: 130px;
+  height: 40px;
+  border: none;
+}
+.b1:hover {
+  background-color: orange;
+  transition: 0.8s all ease-in;
+}
+
+.b2:hover {
+  background-color: orange;
+  transition: 0.8s all ease-in;
+}
+
+.b2 {
+  background-color: white;
+  border-radius: 20px;
+  color: #2874f0;
+  font-weight: bold;
+  width: 130px;
+  height: 40px;
+  border: none;
+}
+.img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url("G:\React\project2\src\Assests\Meet2.png");
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-color: black;
+}
+
+@media screen and (min-width: 480px) {
+  .content {
+    height: 600px;
+  }
+}

@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  border: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+
+.contact1 {
+  background-color: darkslategray;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.contact2 {
+  background-color: darkslategray;
+  padding: 10px;
+  color: #668cff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.contact3 {
+  background-color: darkslategray;
+  padding: 10px;
+}
+input[type="text"] {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+input[type="email"] {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+}
+textarea {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+}
+.submit {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  width: 150px;
+  transition: all 0.5s linear;
+}
+.submit:hover {
+  background-color: #0f50d2;
+  color: white;
+  box-shadow: 0px 2px 4px darkslategray;
+  transform: translateY(2px);
+}
