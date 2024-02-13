@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./AboutMe";
 import "./Contact.css";
 
 function Contact() {
@@ -82,10 +81,10 @@ function Contact() {
         <br></br>
         <br></br>
         <button className="submit">Submit</button>
-        <p>{displayname}</p>
+        {/* <p>{displayname}</p>
         <p> {displayemail} </p>
         <p> {displaynumber} </p>
-        <p> {displaymassage} </p>
+        <p> {displaymassage} </p> */}
       </form>
     </div>
   );

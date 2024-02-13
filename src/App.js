@@ -1,23 +1,25 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-// import Navbar from "./Portfoilio/Navbar";
-import Abou from "./Portfoilio/Abou";
-import Cont from "./Portfoilio/Cont";
-import Foot from "./Portfoilio/Foot";
-import Nav from "./Portfoilio/Nav";
-import Hom from "./Portfoilio/Hom";
+import Navbar from "./Portfoilio/Navbar";
+import Home from "./Portfoilio/Home";
+import AboutMe from "./Portfoilio/AboutMe";
+import Education from "./Portfoilio/Education";
+import Skill from "./Portfoilio/Skill";
+import Contact from "./Portfoilio/Contact";
+import Footer from "./Portfoilio/Footer";
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      <Nav />
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Hom />} />
-        <Route path="abou" element={<Abou />} />
-        <Route path="/cont" element={<Cont />} />
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<AboutMe />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/skill" element={<Skill />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Foot />
+      <Footer />
     </div>
   );
 }

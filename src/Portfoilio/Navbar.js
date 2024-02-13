@@ -1,40 +1,47 @@
 import React from "react";
 import "./Navbar.css";
-import Home from "./Home";
-import AboutMe from "./AboutMe";
-import Education from "./Education";
-import Skill from "./Skill";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
+  const NavLinkCSS = ({ isActive }) => {
+    return {
+      color: isActive ? "orange" : "white",
+      backgroundColor: isActive ? "#506270" : "#131921",
+      borderRadius: isActive ? "5px" : "0px",
+    };
+  };
+
   return (
     <div>
       <div id="home" className="navbar">
         <ul className="nav-item">
           <li>
-            <a href="#home"> Home </a>
+            <NavLink to="/" className="navbarlink" style={NavLinkCSS}>
+              Home
+            </NavLink>
           </li>
           <li>
-            <a href="#about"> About </a>
+            <NavLink to="about" className="navbarlink" style={NavLinkCSS}>
+              About
+            </NavLink>
           </li>
           <li>
-            <a href="#education"> Education </a>
+            <NavLink to="education" className="navbarlink" style={NavLinkCSS}>
+              Education
+            </NavLink>
           </li>
           <li>
-            <a href="#skill">Skill</a>
+            <NavLink to="skill" className="navbarlink" style={NavLinkCSS}>
+              Skill
+            </NavLink>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <NavLink to="contact" className="navbarlink" style={NavLinkCSS}>
+              Contact
+            </NavLink>
           </li>
         </ul>
       </div>
-      <Home />
-      <AboutMe />
-      <Education />
-      <Skill />
-      <Contact />
-      <Footer />
     </div>
   );
 }

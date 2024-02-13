@@ -7,7 +7,7 @@
 .skill {
   background-color: rgb(61, 58, 58);
   margin-top: 5px;
-  height: 500px;
+  height: auto;
 }
 .skill1 {
   display: flex;
@@ -256,6 +256,6 @@ sub {
 
 @media screen and (min-width: 480px) {
   .skill {
-    height: 860px;
+    height: auto;
   }
 }

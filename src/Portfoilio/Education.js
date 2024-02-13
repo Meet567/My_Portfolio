@@ -1,6 +1,6 @@
 import React from "react";
-import "./Home";
 import "./Education.css";
+
 function Education() {
   return (
     <div id="education" className="education">

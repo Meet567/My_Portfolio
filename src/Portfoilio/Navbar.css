@@ -32,7 +32,7 @@ li {
   animation: slideTop 0.5s ease forwards;
 }
 
-a {
+.navbarlink {
   background-color: #131921;
   text-decoration: none;
   color: white;
@@ -52,15 +52,15 @@ a {
     opacity: 1;
   }
 }
-a:hover {
+.navbarlink:hover {
   color: rgb(61, 151, 162);
 }
 
-li {
+/* li {
   border: 2px solid transparent;
-}
+} */
 li:hover {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   border-radius: 5px;
   padding: 2px;
 }
