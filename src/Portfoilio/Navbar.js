@@ -7,7 +7,7 @@ function Navbar() {
     return {
       color: isActive ? "orange" : "white",
       backgroundColor: isActive ? "#506270" : "#131921",
-      borderRadius: isActive ? "5px" : "1px",
+      borderRadius: isActive ? "5px" : "0px",
     };
   };
 
